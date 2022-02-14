@@ -12,7 +12,7 @@
 
 
 static const char *colorname[] = {
-  "#231e18", /* base00 */
+  "#221e18", /* base00 */ // 321e18
   "#d35c5c", /* base08 */
   "#b7ba53", /* base0B */
   "#e0ac16", /* base0A */
@@ -22,11 +22,11 @@ static const char *colorname[] = {
   "#cabcb1", /* base05 */
   "#9d8b70", /* base03 */
   "#ca7f32", /* base09 */
-  "#302b25", /* base01 */
-  "#48413a", /* base02 */
-  "#b4a490", /* base04 */
+  "#879ceb", /* base01 */ // 302b25 ( this was for sizes on exa, way too dark before)
+  "#638373", /* base02 */ // Was 48413a, used for user on exa output. Changed to a much lighter grey.
+  "#40bf40", /* base04 */ // b4a490 (changed to greenish)
   "#d7c8bc", /* base06 */
-  "#b49368", /* base0F */
+  "#df3030", /* base0F */ // b49368 (changed to stark red - also used was af3030, a less stark red)
   "#e4d4c8", /* base07 */
 };
 
